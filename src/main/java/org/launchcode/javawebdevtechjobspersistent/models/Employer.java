@@ -9,7 +9,6 @@ import javax.validation.constraints.NotBlank;
 @Entity
 public class Employer extends AbstractEntity {
 
-    @ManyToOne
     @NotBlank
     private String location;
 
